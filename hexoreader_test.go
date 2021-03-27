@@ -23,7 +23,7 @@ func TestHexoReader_ReadAll(t *testing.T) {
 			fields: fields{
 				r: strings.NewReader(`title: "技術ブログの年間連載予定を発表します"
 date: 2021/01/12 00:00:00
-tag:
+tags:
   - タグ1
   - タグ2
 category:

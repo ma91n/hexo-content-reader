@@ -8,6 +8,6 @@ type Post struct {
 type FrontMatter struct {
 	Title      string   `yaml:"title"`
 	Date       string   `yaml:"date"`
-	Tags       []string `yaml:"tag"`
+	Tags       []string `yaml:"tags"`
 	Categories []string `yaml:"category"`
 }
